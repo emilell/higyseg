@@ -117,38 +117,6 @@ img {
 
 }
 
-.div-container-objeto {
-	width: 100%;
-	height: 80px;
-	background-color: #888;
-	padding: 20px 5px;
-}
-
-
-.objeto {
-	width: 40px;
-	height: 40px;
-	background-color: #4EB70D;
-	border-radius: 50%;
-	animation-name: desplazarse;
-	animation-duration: 2s;
-	position: relative;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-fill-mode: both;
-	animation-timing-function: cubic-bezier(.66,.12,.12,.86);
-	box-shadow: 2px 2px 9px #000;
-}
-
-@keyframes desplazarse {
-	0% {
-		left: 10%; 
-	}
-
-	100% {
-		left: 80%;
-	}
-}
 
 .div-container-med {
 	width: 100%;
@@ -363,54 +331,14 @@ img {
 
 	}
 
-
-
-	.div-container-objeto {
-	width: 100%;
-	height: 90px;
-	background-color: #888;
-	padding: 20px 5px;
-	display: inline-block;
-	}
-
-
-
-	.objeto {
-	width: 40px;
-	height: 40px;
-	background-color: #4EB70D;
-	border-radius: 50%;
-	animation-name: desplazarse;
-	animation-duration: 2s;
-	position: relative;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-fill-mode: both;
-	animation-timing-function: cubic-bezier(.66,.12,.12,.86);
+.div-med {
+	padding: 20px 10px;
+	text-align: center;
 	box-shadow: 2px 2px 9px #000;
 	display: inline-block;
-	margin-bottom: 10px;
-	}
-
-
-
-	@keyframes desplazarse {
-	0% {
-		left: 10%; 
-	}
-
-	100% {
-		left: 80%;
-	}
-
+	width: 100%;
 }
 
 
 
-
-
-
-
-
 }
-
